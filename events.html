@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event management company </title>
+</head>
+<body>
+    <h1 onclick="handelClick()">Exploring company</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptatibus eius tempore quaerat ipsum voluptates error cupiditate blanditiis enim assumenda?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta delectus officiis unde nesciunt praesentium ipsum non animi vero eaque omnis.</p>
+    <p>Quis temporibus repellendus aperiam non assumenda molestiae sequi nobis excepturi. Dolores totam recusandae quo blanditiis voluptas culpa, odio assumenda. Veniam?</p>
+    <p>Distinctio excepturi quam, qui perferendis ipsa dolor aspernatur numquam maxime. Voluptas accusantium dolore fugiat quasi, odio porro? Suscipit, magnam quis.</p>
+    <button>Click me</button>
+    <button id="second">Click me -1</button>
+    <button>Click me -2</button>
+    <button id="lastPerson">Click me -3</button>
+    <script>
+        document.getElementById('lastPerson').addEventListener('click',function(){
+            document.body.style.color = 'tomato';
+        })
+
+        // function handelClick(){
+        //   document.body.style.backgroundColor = 'tomato';
+        // }
+        // const secondButton = document.getElementById('second');
+        // secondButton
+        // secondButton.addEventListener('click', handelClick);
+        //secondButton.onclick = handelClick;
+    </script>
+</body>
+</html>
